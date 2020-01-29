@@ -1,0 +1,46 @@
+#D1 {
+  height: 630px;
+  width: 700px;
+  background-color: red;
+  margin-left: 100px;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+}
+
+#player1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: red;
+  border-width: 5px;
+  border-color: black;
+  position: absolute;
+  margin-top: 575px;
+  margin-left: 120px;
+}
+
+#player2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: blue;
+  border-width: 5px;
+  border-color: black;
+  position: absolute;
+  /* margin-top: 575px;
+  margin-left: 130px; */
+}
+
+#parent {
+  display: flex;
+  flex-direction: row;
+}
+
+#button {
+  margin-left: 300px;
+  width: 50px;
+  height: 50px;
+}
